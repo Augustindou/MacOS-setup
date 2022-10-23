@@ -11,6 +11,7 @@ eval "$(starship init zsh)"
 
 # python aliases
 alias pip="pip3"
+alias python="python3"
 alias venv_init="python3 -m venv .venv"
 alias venv="source .venv/bin/activate"
 
