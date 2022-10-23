@@ -11,7 +11,7 @@ brew install \
 
 # applications
 brew install \
-    google-chrome \
+    firefox \
     microsoft-office \
     1password \
     spotify \
