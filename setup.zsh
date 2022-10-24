@@ -1,8 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
-# ------------------------------------------------------------
-# programs
-# ------------------------------------------------------------
+# Ask for the administrator password upfront
+sudo -v
+
+# Keep-alive: update existing `sudo` time stamp until script has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+# ---------------------------------------------------------- #
+# programs                                                   #
+# ---------------------------------------------------------- #
 
 # install xcode-command-line-tools
 xcode-select --install
@@ -44,9 +50,9 @@ brew install fzf
 brew install starship
 brew install trash
 
-# ------------------------------------------------------------
-# customization & settings
-# ------------------------------------------------------------
+# ---------------------------------------------------------- #
+# customization & settings                                   #
+# ---------------------------------------------------------- #
 
 # zsh config
 cp settings-files/.zshrc ~/.zshrc
@@ -54,7 +60,7 @@ exec zsh
 
 # git config
 git config --global user.name Augustindou
-$ git config --global user.email augustin.doultremontao@gmail.com
+git config --global user.email augustin.doultremontao@gmail.com
 
 # dock customization
 brew install --cask hpedrorodrigues/tools/dockutil
