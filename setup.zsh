@@ -50,6 +50,10 @@ brew install fzf
 brew install starship
 brew install trash
 
+# download other programs to desktop when not available via homebrew / mac app store
+logitech_options="https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
+curl $logitech_options --output ~/Desktop/logitech_options.zip
+
 # ---------------------------------------------------------- #
 # customization & settings                                   #
 # ---------------------------------------------------------- #
