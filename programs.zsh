@@ -29,7 +29,7 @@ brew install stremio
 brew install iina
 
 # microsoft office
-brew install onedrive
+brew install --cask onedrive
 brew install microsoft-word
 brew install microsoft-excel
 brew install microsoft-powerpoint
