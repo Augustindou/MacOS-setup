@@ -67,8 +67,8 @@ git config --global user.name Augustindou
 git config --global user.email augustin.doultremontao@gmail.com
 
 # vscode config
-cp settings-files/settings.json ~/Library/Application\ Support/Code/User/settings.json
-cp settings-files/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+cp settings-files/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+cp settings-files/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 # ---------------------------------------------------------- #
 # system preferences                                         #
