@@ -1,0 +1,87 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+      "key": "shift+cmd+f",
+      "command": "editor.action.startFindReplaceAction"
+    },
+    {
+      "key": "cmd+m",
+      "command": "workbench.action.toggleZenMode"
+    },
+    {
+      "key": "shift+cmd+b",
+      "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+      "key": "cmd+3",
+      "command": "workbench.scm.focus"
+    },
+    {
+      "key": "cmd+t",
+      "command": "workbench.action.terminal.new"
+    },
+    {
+      "key": "ctrl+cmd+space",
+      "command": "workbench.action.terminal.split",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "shift+cmd+down",
+      "command": "editor.action.moveLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+cmd+up",
+      "command": "editor.action.moveLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+cmd+r",
+      "command": "workbench.action.debug.restart",
+      "when": "inDebugMode"
+    },
+    {
+      "key": "cmd+1",
+      "command": "workbench.view.explorer"
+    },
+    {
+      "key": "cmd+2",
+      "command": "workbench.view.search"
+    },
+    {
+      "key": "cmd+4",
+      "command": "workbench.view.debug"
+    },
+    {
+      "key": "cmd+5",
+      "command": "workbench.view.extensions"
+    },
+    {
+      "key": "ctrl+cmd+p",
+      "command": "git.push"
+    },
+    {
+      "key": "ctrl+cmd+o",
+      "command": "git.pull"
+    },
+    {
+      "key": "ctrl+cmd+i",
+      "command": "git.commit"
+    },
+    {
+      "key": "shift+cmd+n",
+      "command": "workbench.action.newWindow"
+    },
+    {
+      "key": "alt+tab",
+      "command": "editor.action.inlineSuggest.showNext"
+    },
+    {
+      "key": "shift+alt+tab",
+      "command": "editor.action.inlineSuggest.showPrevious"
+    },
+    {
+      "key": "cmd+[IntlBackslash]",
+      "command": "workbench.action.toggleSidebarVisibility"
+    }
+  ]

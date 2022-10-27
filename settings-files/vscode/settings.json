@@ -1,0 +1,123 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "files.eol": "\n",
+    "explorer.confirmDelete": false,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "on",
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "python.languageServer": "Pylance",
+    "python.terminal.activateEnvironment": false,
+    "jupyter.interactiveWindowMode": "perFile",
+    "jupyter.askForKernelRestart": false,
+    // Better comments
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": false,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "wip",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "@augustin",
+            "color": "#1E1E1E",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#98C379",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "doc ",
+            "color": "#939393",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "jupyter.alwaysTrustNotebooks": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.scrollback": 10000,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "git.confirmSync": false,
+    "notebook.compactView": false,
+    "notebook.consolidatedRunButton": true,
+    "notebook.globalToolbar": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "explorer.excludeGitIgnore": false,
+    "window.zoomLevel": 3,
+    "security.workspace.trust.untrustedFiles": "open"
+}
