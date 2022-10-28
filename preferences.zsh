@@ -12,7 +12,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # zsh config
 cp settings-files/.zshrc ~/.zshrc
-exec zsh
 
 # git config
 git config --global user.name Augustindou
