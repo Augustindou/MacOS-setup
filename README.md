@@ -21,11 +21,9 @@ This is an attempt at automating my MacOS setup. It's specific to my personal us
     ```
 4. Change permissions
     ```
-    chmod +x programs.zsh
-    chmod +x preferences.zsh
+    chmod +x setup.zsh
     ```
 5. Run program installs & preferences setup
     ```
-    ./programs.zsh
-    ./preferences.zsh
+    ./setup.zsh
     ```
