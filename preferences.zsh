@@ -90,12 +90,8 @@ sudo defaults write "com.apple.speech.recognition.AppleSpeechRecognition.prefs" 
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Set a faster keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
-
-# custom keyboard shortcuts
-# @ for cmd, ^ for ctrl, ~ for option, $ for shift
-defaults write com.apple.Safari NSUserKeyEquivalents -dict-add "Close Tab" "@w"
+defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # tracking speed (max 5)
 defaults write -g com.apple.trackpad.scaling 4.0
@@ -115,7 +111,7 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # tracking speed (max 5)
-defaults write -g com.apple.mouse.scaling 3.0
+defaults write -g com.apple.mouse.scaling 2.0
 
 # ask for password after 5 minutes of sleep
 defaults write com.apple.screensaver askForPassword -bool true
@@ -150,9 +146,6 @@ hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 # before editing:
 killall Finder /System/Library/CoreServices/Finder.app
-
-# show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
