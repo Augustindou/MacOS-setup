@@ -45,12 +45,6 @@ brew install --cask hpedrorodrigues/tools/dockutil
 logitech_options="https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
 curl $logitech_options --output ~/Desktop/logitech_options.zip
 
-# microsoft office (takes a long time to download)
-brew install microsoft-word
-brew install microsoft-excel
-brew install microsoft-powerpoint
-brew install --cask onedrive
-
 # ---------------------------------------------------------- #
 # customization & settings                                   #
 # ---------------------------------------------------------- #
@@ -355,7 +349,12 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
 
 # ---------------------------------------------------------- #
-# Conclusion                                                 #
+# Microsoft Office (takes a long time to download)           #
 # ---------------------------------------------------------- #
+
+brew install microsoft-word
+brew install microsoft-excel
+brew install microsoft-powerpoint
+brew install --cask onedrive
 
 echo "Done. Please restart for all changes to take effect."
