@@ -22,6 +22,7 @@ brew install python@3.10
 brew install firefox
 brew install ticktick
 brew install spotify
+brew install google-drive
 brew install 1password
 brew install clipy
 brew install signal
@@ -277,9 +278,6 @@ defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
 
 # speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.1
-
-# don’t automatically rearrange Spaces based on most recent use
-defaults write com.apple.dock mru-spaces -bool false
 
 # ---------------------------------------------------------- #
 # safari                                                     #
