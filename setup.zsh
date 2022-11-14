@@ -45,6 +45,9 @@ brew install --cask hpedrorodrigues/tools/dockutil
 logitech_options="https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
 curl $logitech_options --output ~/Desktop/logitech_options.zip
 
+# clipy snippets
+cp settings-files/clipy-snippets.xml ~/Desktop/clipy-snippets.xml
+
 # ---------------------------------------------------------- #
 # customization & settings                                   #
 # ---------------------------------------------------------- #

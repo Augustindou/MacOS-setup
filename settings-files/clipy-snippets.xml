@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>Contact</title>
+		<snippets>
+			<snippet>
+				<title>Gmail</title>
+				<content>augustin.doultremontao@gmail.com</content>
+			</snippet>
+			<snippet>
+				<title>Hotmail</title>
+				<content>augustin.doultremont@hotmail.fr</content>
+			</snippet>
+			<snippet>
+				<title>Outlook</title>
+				<content>augustin.doultremont@outlook.com</content>
+			</snippet>
+			<snippet>
+				<title>Trigrr</title>
+				<content>augustin.doultremont@trigrr.io</content>
+			</snippet>
+			<snippet>
+				<title>Phone</title>
+				<content>0032 476 03 84 79</content>
+			</snippet>
+			<snippet>
+				<title>Home</title>
+				<content>Rue des Carmes 6A&#10;1300 Limal</content>
+			</snippet>
+			<snippet>
+				<title>Coloc</title>
+				<content>Rue au Bois 563C&#10;1150 Woluwé-Saint-Lambert</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
