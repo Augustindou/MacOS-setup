@@ -119,5 +119,6 @@
     "python.formatting.provider": "black",
     "explorer.excludeGitIgnore": false,
     "window.zoomLevel": 3,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.suggestSelection": "recentlyUsedByPrefix"
 }
